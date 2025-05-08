@@ -14,7 +14,7 @@ public class ChatServer {
     private static JLabel ipLabel;
 
     public static void main(String[] args) {
-        initializeServerGUI();
+        initializeServerGUIl();
         showNetworkIPs();
         
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
